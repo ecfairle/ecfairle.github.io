@@ -3,7 +3,6 @@ $(document).ready(function() {
 	$buttons.on('click', function(event) {
 		event.preventDefault();
 		link = $(this).attr('id') + '.html';
-		alert(link)
 		$('#extra').load(link);
 	});
 });
