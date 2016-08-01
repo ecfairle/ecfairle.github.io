@@ -100,3 +100,10 @@ img{
   }
 
 
+#switch_im {
+   background-image: url('docs/CAIR_before.jpg');
+}
+
+#switch_im:hover {
+   background-image: url('docs/CAIR.png');
+}
