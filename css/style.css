@@ -33,8 +33,19 @@ strong {
     text-align: center;
   }
 
-
-
+li.tennis{
+   list-style: none;
+}
+li.tennis:before{
+   content: '';
+   display: inline-block;
+   height: 2em;
+   width: 2em;
+   background-position: 0 1.1em;
+   background-image: url('http://www.logorium.com/sites/default/files/images/4/logos/Eco-Sports-bw.png');
+   background-size:contain; 
+   background-repeat:no-repeat;
+}
 
 ul{
   border-bottom: 1px solid #d8dee9;
