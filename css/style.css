@@ -53,6 +53,7 @@ ul{
 }
   a>img { display: none; }
   a:hover>img { display: block; }
+  a>img:hover{ display: block; }
 
 
 /**
@@ -66,11 +67,11 @@ img{
   height:auto;
 }
 
-.img-circle{
+#selfie{
   display: block;
   margin-left: auto;
   margin-right: 50px;
-  width: 120px;
+  width: 150px;
   height: auto;
 }
 
